@@ -215,7 +215,8 @@ img{
     width: 45px;
     height: 45px;
     object-fit: contain;
-    margin-bottom: 4px;
+    margin-right: 150px;
+    margin-bottom: 10px;
 }
 
 .plan-head h3 {
