@@ -144,8 +144,8 @@ img{
     gap: 270px;
 }
 .img1{
-    width: 580px;
-    height: 320px;
+    width: 550px;
+    height: 300px;
     
 }
 .alpha h2{
@@ -154,7 +154,7 @@ img{
 }
 .alpha p{
     color: #000000;
-    width: 500px;    
+    width: 450px;    
     font-size: 20px;
     margin-top: 20px;
 }
@@ -328,6 +328,5 @@ img{
 }
 
 /* media queries */
-@media (max-width: 1200px) {
-    
-}
+
+
