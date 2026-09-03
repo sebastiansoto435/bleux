@@ -353,3 +353,22 @@ img{
     }
 }
 
+@media (max-width: 768px) {
+    .contenu{
+        flex-direction: column;
+        gap: 20px;
+    }
+    img{
+        margin-left: 0px;
+        width: 200px;
+        height: 400px;
+    }
+    .img1{
+        width: 300px;
+        height: 150px;
+    }
+    .alpha p{
+        width: 250px;
+    }
+}
+
