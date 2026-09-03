@@ -328,5 +328,28 @@ img{
 }
 
 /* media queries */
-
+@media (max-width: 1279px) {
+    .contenu{
+        gap: 100px;
+    }
+    .img1{
+        width: 400px;
+        height: 250px;
+    }
+    .alpha p{
+        width: 350px;
+    }
+}
+@media (max-width: 920px) {
+    .contenu{
+        gap: 50px;
+    }
+    .img1{
+        width: 350px;
+        height: 200px;
+    }
+    .alpha p{
+        width: 300px;
+    }
+}
 
