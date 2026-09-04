@@ -359,9 +359,9 @@ img{
         gap: 20px;
     }
     img{
-        margin-left: 0px;
+        margin-left: 50px;
         width: 200px;
-        height: 400px;
+        height: 380px;
     }
     .img1{
         width: 300px;
@@ -383,12 +383,20 @@ img{
     .menu{
         font-size: 15px;
     }
+    .hoja-to{
+        flex-direction: column;
+    }
     .menu-item{
         height: 40px;
         width: 80px;
     }
     .contenu{
         gap: 20px;
+    }
+    .hoja{
+        display: flex;
+        justify-content: center;
+        align-items: center;
     }
     .img1{
         width: 250px;
