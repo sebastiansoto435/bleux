@@ -348,6 +348,20 @@ img{
     }
 }
 @media (max-width: 920px) {
+    .menu{
+        font-size: 15px;
+    }
+    .texto{
+        font-size: 17px  ;
+    }
+    .logo{
+        width: 150px;
+        height: 100px;
+    }
+    img{
+        width: 300px;
+        height: 300px;
+    }
     .contenu{
         gap: 50px;
     }
