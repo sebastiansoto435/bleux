@@ -34,7 +34,8 @@ nav ul{
     display: flex;
     align-items: center;
     gap: 20px;
-    font-size: 23px;
+    font-size: 12px;
+    line-height: 1.45;
 }
 .menu-item{
     display: flex;
@@ -63,14 +64,15 @@ nav ul{
     padding: 20px;
 }
 .texto1 h1{
-    font-size: 70px;
+    font-size: 41px;
 }
 .texto1{
     display: flex;
     justify-content: center;
     flex-direction: column;
     gap: 40px;
-    font-size: 20px;
+    font-size: 12px;
+    line-height: 1.45;
 }
 .botones{
     display: flex;
@@ -133,7 +135,11 @@ img{
     align-items: center;
     margin-top: 100px;
     color: #f654a7;
-    font-size: 50px;
+    font-size: 39px;
+}
+
+.titre h2{
+    font-size: 39px;
 }
 
 .contenu{
@@ -150,12 +156,13 @@ img{
 }
 .alpha h2{
     color: #c85b94;
-    font-size: 50px;
+    font-size: 39px;
 }
 .alpha p{
     color: #000000;
     width: 450px;    
-    font-size: 20px;
+    font-size: 12px;
+    line-height: 1.45;
     margin-top: 20px;
 }
 
@@ -354,9 +361,32 @@ img{
 }
 
 @media (max-width: 768px) {
+    ul{
+        flex-direction: column;
+        align-items: center;
+    }
+    .logo{
+        width: 200px;
+        height: 100px;
+    }
+    .menu{
+        font-size: 15px;
+    }
+    .hoja-to{
+        flex-direction: column;
+    }
     .contenu{
         flex-direction: column;
         gap: 20px;
+    }
+    .hoja{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        height: 500px;
+    }
+    .texto{
+        height: 500px;
     }
     img{
         margin-left: 50px;
@@ -369,6 +399,13 @@ img{
     }
     .alpha p{
         width: 250px;
+    }
+    .plan{
+        width: 180px;
+    }
+    .planes{
+       display: flex;
+       justify-content: center;
     }
 }
 @media (max-width: 480px) {
@@ -397,16 +434,32 @@ img{
         display: flex;
         justify-content: center;
         align-items: center;
+        height: 500px;
+    }
+    .texto{
+        height: 500px;
     }
     .img1{
         width: 250px;
         height: 100px;
     }
     .titre{
-        font-size: 40px;
+        font-size: 39px;
     }
     .alpha p{
         width: 200px;
+    }
+    .plans{
+        display: flex;
+        align-items: center;
+        flex-direction: column;
+    }
+    .plan{
+        width: 180px;
+    }
+    .planes{
+       display: flex;
+       justify-content: center;
     }
 }
 
