@@ -27,8 +27,8 @@ nav ul{
     background-image: url('../assets/imagenes/logo.png');
     background-size: contain;
     background-repeat: no-repeat;
-    width: 1000px;
-    height: 130px;
+    width: 970px;
+    height: 100px;
 }
 .menu{
     display: flex;
@@ -352,7 +352,7 @@ img{
         font-size: 15px;
     }
     .texto{
-        font-size: 17px  ;
+        font-size: 17px;
     }
     .logo{
         width: 150px;
